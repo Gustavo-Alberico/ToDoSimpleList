@@ -1,2 +1,2 @@
 # ToDoSimpleList
-Memo A simple task list
+A simple task list
