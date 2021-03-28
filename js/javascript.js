@@ -27,6 +27,7 @@ const criartItem = () => {
 	console.log(texto);
 	if(texto === ""){
 		alert("Você deve nomear sua tarefa!")
+		document.getElementById("toDoInput").value = "";
 	} else {
 		const banco = getBanco();
 		banco.push({"tarefa" : texto, "status": ""})
