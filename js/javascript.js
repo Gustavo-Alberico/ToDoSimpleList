@@ -14,10 +14,6 @@ const limparTarefas = () => {
 }
 
 //Variavel de armazenamento de dados
-// const banco = [
-// 	// {"tarefa": "teste1", "status": ""},
-// 	// {"tarefa": "teste2", "status": "checked"}
-// ]
 const getBanco = () => JSON.parse(localStorage.getItem("todoList")) ?? [];
 const setBanco = (banco) => localStorage.setItem("todoList", JSON.stringify(banco));
 
