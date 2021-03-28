@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+ <head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="shortcut icon" href="favicon/to-do-list.svg" type="image/x-icon">
+
+	<!-- Title -->
+	<title>ToDoSimpleList</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/style.css"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+
+</head>
+<body>
+    <div id="card-container">
+		<div class="toDo-container">
+			<input type="text" id="toDoInput" name="toDoInput" placeholder="Digite sua tarefa" required>
+			<button class="butao" onclick="criartItem()">Adicionar tarefa</button>
+		</div>
+		
+		<div class="list-containers" id="todoList">
+			<!-- Tarefas vão ser ineridas aqui por meio de JavaScript -->
+		</div>
+		
+
+    </div>
+    <script src="js/javascript.js"></script>	
+</body>
+</html>
